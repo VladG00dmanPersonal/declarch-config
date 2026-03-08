@@ -18,11 +18,14 @@ packages = [
   # Docker
   "docker",
   "docker-compose",
-
-  # Remote access
-  # "openssh",
-  # "tailscale",
-  # "firewalld"
+  
+  #LaTex
+  "texlive-basic",
+  "texlive-latexextra",
+  "texlive-fontsextra",
+  # "texlive-science",
+  "ffmpeg",
+  "python-pip"
 ]
 
 [mise]
@@ -30,5 +33,5 @@ packages = [{name = "node", options = { version = "lts" }}]
 
 # [npm]
 # packages = [
-#   "yarn",
+#   "yarn",f
 # ]
