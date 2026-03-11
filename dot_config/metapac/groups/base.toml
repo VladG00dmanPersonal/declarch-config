@@ -58,6 +58,9 @@ packages = [
     "system-config-printer",
     "pantum-universal-driver",
     "ghostscript",
+
+    # QR-code reading
+    "zbar",
     
     # Firmware
     "intel-ucode",
