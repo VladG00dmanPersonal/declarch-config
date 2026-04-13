@@ -5,9 +5,11 @@ packages = [
   "libvirt",
   "edk2-ovmf",
   "dnsmasq",
-  "iptables-nft",
+  # "iptables-nft",
   "virt-viewer",
   "bridge-utils",
   "swtpm",
   "libosinfo"
 ]
+
+# Not included in config.toml

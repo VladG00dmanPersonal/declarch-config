@@ -12,7 +12,7 @@ packages = [
   "vlc",
   "vlc-plugins-all",
 
-  "pwvucontrol",
+  # "pwvucontrol",
   "blueman",
 
   "zoom",
