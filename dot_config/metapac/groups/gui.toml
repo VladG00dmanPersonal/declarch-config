@@ -16,6 +16,8 @@ packages = [
   "pavucontrol",
   "blueman",
 
+  "libreoffice-still",
+
   "zoom",
 
   "visual-studio-code-bin",

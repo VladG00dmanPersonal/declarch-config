@@ -1,7 +1,7 @@
 [arch]
 packages = [
-    "unityhub",
-    "blender",
+    # "unityhub",
+    # "blender",
     "mono",
     "sdl2",
     "vulkan-icd-loader",
