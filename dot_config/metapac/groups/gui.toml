@@ -3,7 +3,7 @@ packages = [
   "firefox",
   "google-chrome",
   "kitty",
-  "warp-terminal-bin",
+  # "warp-terminal-bin",
 
   "nemo",
   "file-roller",
@@ -18,12 +18,12 @@ packages = [
   "zoom",
 
   "visual-studio-code-bin",
-  "cursor-bin",
+  # "cursor-bin",
 
   "telegram-desktop",
   "webkit2gtk-4.1",
   "wl-clipboard",
-  "throne-bin",
+  # "throne-bin",
   "obsidian",
   "obs-studio"
 ]
