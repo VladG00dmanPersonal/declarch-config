@@ -8,3 +8,5 @@ package_manager = "yay"
 [hostname_groups]
 "declarch" = ["base", "fonts", "cli", "gui", "hyprland", "nvidia", "dev", "celestia-shell", "remote", "themes", "gaming", "gamedev"]
 "declarch-laptop"  = ["base", "fonts", "cli", "gui", "hyprland", "intel-graphics", "dev", "celestia-shell", "remote", "themes", "gaming", "gamedev"]
+"declarch-intelg"  = ["base", "fonts", "cli", "gui", "hyprland", "intel-graphics", "dev", "remote", "themes", "gaming"]
+"declarch-nvidiag"  = ["base", "fonts", "cli", "gui", "hyprland", "nvidia", "dev", "remote", "themes", "gaming"]
