@@ -1,19 +1,7 @@
 $mainMod = SUPER
-exec = hyprctl dispatch submap global
-submap = global
 
 # Launcher
-bind = Super, R, global, caelestia:launcher
-bindin = Super, catchall, global, caelestia:launcherInterrupt
-bindin = Super, mouse:272, global, caelestia:launcherInterrupt
-bindin = Super, mouse:273, global, caelestia:launcherInterrupt
-bindin = Super, mouse:274, global, caelestia:launcherInterrupt
-bindin = Super, mouse:275, global, caelestia:launcherInterrupt
-bindin = Super, mouse:276, global, caelestia:launcherInterrupt
-bindin = Super, mouse:277, global, caelestia:launcherInterrupt
-bindin = Super, mouse_up, global, caelestia:launcherInterrupt
-bindin = Super, mouse_down, global, caelestia:launcherInterrupt
-
+bindr = Super, R, exec, caelestia shell drawers toggle launcher
 # Misc
 bind = Ctrl+Alt, Delete, global, caelestia:session
 bindl = Ctrl+Alt, C, global, caelestia:clearNotifs
@@ -72,8 +60,8 @@ bind = $mainMod, mouse_down, workspace, e+1
 bind = $mainMod, mouse_up, workspace, e-1
 
 # Move/resize windows with mainMod + LMB/RMB and dragging
-bindm = $mainMod, mouse:272, movewindow
-bindm = $mainMod, mouse:273, resizewindow
+bindm = $mainMod, mouse_left, movewindow
+bindm = $mainMod, mouse_right, resizewindow
 
 # Laptop multimedia keys for volume and LCD brightness
 bindel = ,XF86AudioRaiseVolume, exec, wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+
