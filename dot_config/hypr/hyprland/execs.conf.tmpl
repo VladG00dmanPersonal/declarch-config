@@ -9,5 +9,7 @@ exec-once = awww img ~/Pictures/Wallpapers/hyprgirl.png  \
     --transition-bezier .43,.43,.12,.88    
 exec-once = yandex-disk start
 
+exec-once = dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
+
 exec-once = gsettings set org.gnome.desktop.interface color-scheme prefer-dark
 exec-once = gsettings set org.gnome.desktop.interface gtk-theme adw-gtk3-dark

@@ -22,7 +22,7 @@ packages = [
     
     # Package management
     "yay",
-    "yay-debug",
+    # "yay-debug",
     
     # Network
     "networkmanager",
@@ -43,6 +43,7 @@ packages = [
     "pipewire-alsa",
     "pipewire-pulse",
     "pipewire-jack",
+    "xdg-desktop-portal-hyprland",
     "wireplumber",
     "libpulse",
     "gst-plugin-pipewire",
